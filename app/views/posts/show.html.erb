@@ -1,0 +1,9 @@
+<!-- app/views/posts/show.html.erb -->
+<article class="post">
+  <h1><%= @post.title %></h1>
+  <p class="navigation">
+    <%= link_to "Back", root_path %> |
+    <%= link_to "Edit", edit_post_path(@post) %>
+  </p>
+  <p><%= @post.body %></p>
+</article>
