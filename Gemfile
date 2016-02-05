@@ -46,3 +46,6 @@ group :development do
 end
 
 gem 'bootstrap-sass'
+
+# Heroku needs this
+gem 'rails_12factor', group: :production
